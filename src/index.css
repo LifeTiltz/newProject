@@ -1,3 +1,39 @@
-* {
-    background-color: aquamarine;
+.header {
+    height: 50px;
+    max-width: 100%;
+    display: flex;
+}
+
+
+.top-right,
+.top-left {
+    height: 25px;
+    display: flex;
+
+}
+
+.top-right {
+    text-align: right;
+}
+
+.top-right img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.matched-valuesuit {
+    display: flex;
+
+}
+
+.both-cards {
+    display: flex;
+
+}
+
+.right-card,
+.left-card img {
+    height: 50px;
+    max-width: 100%;
+    height: 100%;
 }

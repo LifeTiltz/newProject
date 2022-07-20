@@ -47,22 +47,23 @@ function App() {
 
       <SuitValueOutput leftCard={leftCard} rightCard={rightCard} />
 
-      <div className="bothcards">
-        <div className="leftcard">
-          <Card object={leftCard} name="left" />
+      <div className="both-cards">
+        <div className="left-card">
+          <Card object={leftCard} />
         </div>
-        <div className="rightcard">
-          <Card object={rightCard} name="right" />
+        <div className="right-card">
+          <Card object={rightCard} />
         </div>
       </div>
-
-      {!finish && <button onClick={() => shuffle()}>Draw Card</button>}
-      {finish &&
-        <div>
-          <p>Value Matches: {valueCount}</p>
-          <p>Suit Matches: {suitCount}</p>
-        </div>
-      }
+      <div className="button-scoreboard">
+        {!finish && <button onClick={() => shuffle()}>Draw Card</button>}
+        {finish &&
+          <div>
+            <p>Value Matches: {valueCount}</p>
+            <p>Suit Matches: {suitCount}</p>
+          </div>
+        }
+      </div>
 
     </div>
   );

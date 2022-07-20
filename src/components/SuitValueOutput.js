@@ -12,7 +12,7 @@ export const SuitValueOutput = ({ leftCard, rightCard }) => {
             if (leftCard.value === rightCard.value) {
                 setMatchedValueSuit("SNAP! Value")
             }
-            else {
+            if (leftCard.value !== rightCard.value && leftCard.suit !== rightCard.suit) {
                 setMatchedValueSuit(undefined)
             }
         }
@@ -20,7 +20,7 @@ export const SuitValueOutput = ({ leftCard, rightCard }) => {
 
     return (
         <>
-            <div className="matchedValueSuit">
+            <div className="matched-valuesuit">
                 {matchedValueSuit && <div> {matchedValueSuit} </div>}
             </div>
         </>

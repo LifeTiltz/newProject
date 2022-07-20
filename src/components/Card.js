@@ -1,11 +1,10 @@
 import React from 'react'
 
-export default function Card({ object, name }) {
+export default function Card({ object }) {
     return (
-        <><div>
-            {object && name}
+        <>
             {object && <img src={object.image} />}
-        </div></>
+        </>
 
     )
 }
