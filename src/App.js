@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Card from "./components/Card";
 import Header from "./Header";
-import { SuitValueOutput } from "./SuitValueOutput";
+import { SuitValueOutput } from "./components/SuitValueOutput";
 
 function App() {
 
