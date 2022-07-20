@@ -48,7 +48,7 @@ The game is played by drawing random cards and trying to match either the cards 
 When you start the game you are greeted with this screen:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/659658/111351711-5def5f00-867b-11eb-8550-797762f6b1f1.png" alt="Frontend task UI"/>
+  <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_left_empty.jpg"/>
 </p>
 
 ### Deployment
