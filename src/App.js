@@ -58,7 +58,7 @@ function App() {
       <div className="button-scoreboard">
         {!finish && <button onClick={() => shuffle()}>Draw Card</button>}
         {finish &&
-          <div>
+          <div className="final-score">
             <p>Value Matches: {valueCount}</p>
             <p>Suit Matches: {suitCount}</p>
           </div>

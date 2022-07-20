@@ -7,10 +7,10 @@ export const SuitValueOutput = ({ leftCard, rightCard }) => {
     useEffect(() => {
         if (leftCard != undefined && rightCard != undefined) {
             if (leftCard.suit === rightCard.suit) {
-                setMatchedValueSuit("SNAP! Suits")
+                setMatchedValueSuit("SNAP SUIT!")
             }
             if (leftCard.value === rightCard.value) {
-                setMatchedValueSuit("SNAP! Value")
+                setMatchedValueSuit("SNAP VALUE!")
             }
             if (leftCard.value !== rightCard.value && leftCard.suit !== rightCard.suit) {
                 setMatchedValueSuit(undefined)

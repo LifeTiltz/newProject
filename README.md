@@ -1,8 +1,10 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# How to run and test the SNAP game
 
 ## Available Scripts
+
+Start by running:
+
+### `npm i`
 
 In the project directory, you can run:
 
