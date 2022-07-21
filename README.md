@@ -48,7 +48,31 @@ The game is played by drawing random cards and trying to match either the cards 
 When you start the game you are greeted with this screen:
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_empty_cards.jpg"/>
+</p>
+
+When you draw your first card the board looks like this:
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_left_empty.jpg"/>
 </p>
+
+If you happen to match two cards suit you see a banner saying "SNAP SUIT!":
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_suit_match.jpg"/>
+</p>
+
+If you happen to match two cards value you see a banner saying "SNAP VALUE!":
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_value_match.jpg"/>
+</p> 
+
+When you have exhausted the 52 cards in the deck you are greeted with the scoreboard of your total number of suit matches and value matches:
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_scoreboard.jpg"/>
+</p> 
 
 ### Deployment

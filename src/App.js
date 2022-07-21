@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import Card from "./components/Card";
 import Header from "./Header";
 import { SuitValueOutput } from "./components/SuitValueOutput";
+import isValueMatches from "./utils/isValueMatches";
+import isSuitMatches from './utils/isSuitMatches';
 
 function App() {
 
@@ -31,27 +33,26 @@ function App() {
       }
     }).catch(err => console.log(err))
 
-    if (leftCard !== null && rightCard !== null && leftCard.value === rightCard.value) {
+    if (isValueMatches(leftCard, rightCard)) {
       setValueCount((valueCount) => valueCount + 1)
     }
-    if (leftCard !== null && rightCard !== null && leftCard.suit === rightCard.suit) {
+    if (isSuitMatches(leftCard, rightCard)) {
       setSuitCount((suitCount) => suitCount + 1)
-      console.log(12341423);
     }
 
   }
 
   return (
-    <div>
+    <>
       <Header />
 
       <SuitValueOutput leftCard={leftCard} rightCard={rightCard} />
 
-      <div className="both-cards">
-        <div className="left-card">
+      <div className="cards">
+        <div>
           <Card object={leftCard} />
         </div>
-        <div className="right-card">
+        <div>
           <Card object={rightCard} />
         </div>
       </div>
@@ -65,7 +66,7 @@ function App() {
         }
       </div>
 
-    </div>
+    </>
   );
 }
 
