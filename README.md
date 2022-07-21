@@ -18,8 +18,9 @@ You may also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Using npm test you can run the suite of tests so you can more easily refactor or add to the code base. When you are modifying the code make sure to write test that cover your code and even check for edge cases.
+
+If anything fails, please check the name of the test and rewrite your code till it passes. Rinse and repeat.
 
 ### `npm run build`
 
@@ -75,4 +76,10 @@ When you have exhausted the 52 cards in the deck you are greeted with the scoreb
   <img src="https://raw.githubusercontent.com/LifeTiltz/newProject/master/public/different%20states%20of%20the%20game/snap_scoreboard.jpg"/>
 </p> 
 
-### Deployment
+# Future of the App
+
+I want to refactor the code and make it more scalable. In its current state it is a bit too centralized and non reuseable. 
+
+I want to add a probability calculator and a way to select how many decks you would like to play with.
+
+After that i will add a Sigma calculator of how lucky you got and tie in a serverless backend to have a leader board.
